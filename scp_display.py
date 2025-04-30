@@ -31,7 +31,7 @@ def display_scp(epd, title, object_class, description, scp_image):
             frame = Image.new('1', (epd.height, epd.width), 0)
             frame_draw = ImageDraw.Draw(frame)
             frame_draw.bitmap(((epd.height - scp_logo.width) // 2, 10), scp_logo, fill=1)
-            text = "ALERT. KETER ANOMALY."
+            text = "KETER ANOMALY."
             bbox = frame_draw.textbbox((0, 0), text, font=alert_font)
             text_x = (epd.height - (bbox[2] - bbox[0])) // 2
             text_y = (epd.width - (bbox[3] - bbox[1])) // 2
