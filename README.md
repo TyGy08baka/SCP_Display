@@ -61,8 +61,7 @@ Costs of parts are ~$80 on Amazon
      - get Waveshare's e-paper library: "git clone https://github.com/waveshare/e-Paper"
      - install requests and bs4: "sudo apt install python3-requests python3-bs4"
      - install my script and the SCP logo
-     - git clone https://github.com/TyGy08baka/SCP_Display.git
-     - cd SCP_Display
+     - git clone https://github.com/TyGy08baka/scp_terminal.git
 
 
 3. Test your Waveshare screen works
